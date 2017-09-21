@@ -1,17 +1,17 @@
 4)
-Algoritmo "¡rea_do_TrapÈzio"
+Algoritmo "√Årea_do_Trap√©zio"
  // Autor:Francisco Sousa
  // Data:14-09-2017
- // DescriÁ„o:¡rea do TrapÈzio
+ // Descri√ß√£o:√Årea do Trap√©zio
 Var 
     area, base maipr, base menor, altura : real
-    inÌcio
+    in√≠cio
     escreva("Qual a base maior?")
     leia(base maior)
-    escreva("Qual È a base menor?")
+    escreva("Qual √© a base menor?")
     leia(base menor)
-    escreva("Qual È a altura?")
+    escreva("Qual √© a altura?")
     leia(altura)
     area <- (base maior + base menor) * altura/2
-    escreva("A ·rea È, area")
+    escreva("A √°rea √©, area")
 Fimalgoritmo
