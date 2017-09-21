@@ -2,10 +2,10 @@
 Algoritmo "Media_de_3_Notas"
  // Autor: Francisco Sousa
  // Data: 14-09-2017
- // Descrição: Media das 3 Notas
+ // DescriÃ§Ã£o: Media das 3 Notas
 Var
     nota1, nota2, nota3, media : real
-    início
+    inÃ­cio
     escreva("Qual  nota1?")
     leia(nota1)
     escreva("Qual a nota2?")
@@ -13,5 +13,5 @@ Var
     escreva("Qual a nota3?")
     leia(nota3)
     media <- nota1 + nota2 + nota3 / 3
-    escreva("A media é", media)
+    escreva("A media Ã©", media)
 Fimalgoritmo
