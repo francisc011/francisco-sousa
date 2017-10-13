@@ -1,32 +1,63 @@
 Algoritmo "Calcula_os_saldos"
-// descriçao: Calcular os saldos
+
+// descriÃ§ao: Calcular os saldos
+
 // Autor(a)    : Francisco Sousa
+
 // Data atual  : 12/10/2017
+
 Var
-quantidade,nome,valor,desconto,Total : real
+
+quantidade,valor,desconto,Total : real
+nome: caracter
 Inicio
+
 escreval ("informe o valor da compra")
+
 leia (valor)
+
 escreval ("Quantidade do produto?")
+
 Leia (quantidade)
+
 Escreva ("Qual o nome do produto?")
+
 Leia (nome)
+
 Escolha quantidade
-caso  0 ate 4
-Desconto <- valor * 0.0
-Total <- (valor - desconto)*quantidade
+
+caso  1 ate 4
+
+
+
+Total <- valor *quantidade
+
 caso  5 ate 10
+
 Desconto <- Valor * 0.05
+
 Total <- (valor - desconto)*quantidade
+
 caso 11 ate 20
+
 Desconto <- Valor * 0.15
+
 Total <- (valor - desconto)*quantidade
-caso >20
+
+caso 20 ate 20000000000
+
 Desconto <- Valor * 0.30
+
 Total <- (valor - desconto)*quantidade
-Outrocaso
-algo <- "Inválido"
+
+
+
+
+
 Fimescolha
-Escreval ("valor do produto com desconto é € ", Total)
+
+Escreval ("valor do produto com desconto Ã© â‚¬ ", Total)
+
+
 
 Fimalgoritmo
