@@ -1,4 +1,4 @@
-Algoritmo "Amplitude"
+Algoritmo "Amplitude_termica"
 // Autor(a)    : Francisco Sousa
 // Data atual  : 29/09/2017
 Var
@@ -37,5 +37,5 @@ senao
 menor <- mm2
 fimse
 amp <- maior - menor
-escreva("A Amplitude Termica é", amp)
+escreva("A Amplitude Termica Ã©", amp)
 Fimalgoritmo
